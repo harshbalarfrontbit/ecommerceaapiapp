@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:practiceexamapi/home_page.dart';
+
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: HomeScreen()
+  ));
 }
 
 class MyApp extends StatelessWidget {
